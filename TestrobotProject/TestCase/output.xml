@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.10.7 on win32)" generated="20221002 01:31:20.602" rpa="false">
+<suite id="s1" name="Test" source="C:\Users\sindh\eclipse-workspace\TestrobotProject\TestCase\Test.robot">
+<test id="s1-t1" name="Test">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://u2hrm.trigent.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20221002 01:31:20.804" level="INFO">Opening browser 'chrome' to base url 'https://u2hrm.trigent.com'.</msg>
+<status status="PASS" starttime="20221002 01:31:20.804" endtime="20221002 01:31:23.644"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221002 01:31:23.644" endtime="20221002 01:31:23.754"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20221002 01:31:28.763" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20221002 01:31:23.755" endtime="20221002 01:31:28.763"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>txtUsername</arg>
+</arguments>
+<msg timestamp="20221002 01:31:28.763" level="INFO">Clicking element 'txtUsername'.</msg>
+<status status="PASS" starttime="20221002 01:31:28.763" endtime="20221002 01:31:28.801"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>txtUsername</arg>
+<arg>sin_020198</arg>
+</arguments>
+<msg timestamp="20221002 01:31:28.801" level="INFO">Typing text 'sin_020198' into text field 'txtUsername'.</msg>
+<status status="PASS" starttime="20221002 01:31:28.801" endtime="20221002 01:31:28.834"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>txtPassword</arg>
+</arguments>
+<msg timestamp="20221002 01:31:28.835" level="INFO">Clicking element 'txtPassword'.</msg>
+<status status="PASS" starttime="20221002 01:31:28.835" endtime="20221002 01:31:28.865"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>txtPassword</arg>
+<arg>sin21.@CHA</arg>
+</arguments>
+<msg timestamp="20221002 01:31:28.865" level="INFO">Typing password into text field 'txtPassword'.</msg>
+<status status="PASS" starttime="20221002 01:31:28.865" endtime="20221002 01:31:28.897"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>LOGIN</arg>
+</arguments>
+<msg timestamp="20221002 01:31:28.897" level="INFO">Clicking button 'LOGIN'.</msg>
+<status status="PASS" starttime="20221002 01:31:28.897" endtime="20221002 01:31:29.824"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20221002 01:31:32.827" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221002 01:31:29.824" endtime="20221002 01:31:32.827"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Family Details</arg>
+</arguments>
+<msg timestamp="20221002 01:31:32.838" level="INFO">Current page contains text 'Family Details'.</msg>
+<status status="PASS" starttime="20221002 01:31:32.829" endtime="20221002 01:31:32.838"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221002 01:31:32.838" endtime="20221002 01:31:34.998"></status>
+</kw>
+<status status="PASS" starttime="20221002 01:31:20.804" endtime="20221002 01:31:34.998" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20221002 01:31:20.603" endtime="20221002 01:31:34.998"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
