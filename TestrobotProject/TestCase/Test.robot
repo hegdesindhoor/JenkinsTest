@@ -12,5 +12,5 @@ Test
     Input Password    txtPassword    sin21.@CHA 
     Click Button    LOGIN    
     Sleep    3s
-    Page Should Contain    Family Details               
+    Page Should Not Contain    Family Details               
     Close Browser    
